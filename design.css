@@ -1,0 +1,189 @@
+body {
+    background-image: url('Images/back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+#back {
+	width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+div.home{
+    margin-bottom: 60%;
+}
+#brand
+{
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 25.1%;
+    top: 10%;
+}
+#bird
+{
+    width: 20%;
+    height: auto;
+    position: absolute;
+    left: 63.5%;
+    top: 7%;
+}
+#intro
+{
+    text-align: center;
+    font-family: "Trebuchet MS";
+    font-size: 50pt;
+}
+#heading
+{
+    text-align: center;
+    font-family: "Trebuchet MS";
+    font-size: 35pt;
+}
+#eventsright
+{
+    text-align: center;
+    font-family: "Trebuchet MS";
+    margin-top: 90px;
+    margin-left: 400px;
+    margin-right: 50px;
+    font-size: 17pt;
+}
+#eventsleft
+{
+    text-align: center;
+    font-family: "Trebuchet MS";
+    margin-top: 90px;
+    margin-right: 400px;
+    margin-left: 50px;
+    font-size: 17pt;
+}
+#right
+{
+    right: 0;
+    width: 370px;
+    height: auto;
+    float:right;
+    padding-bottom: 100px;
+}
+#left
+{
+    left: 0;
+    width: 370px;
+    height: auto;
+    float: left;
+    padding-bottom: 100px;
+}
+#vid
+{
+    float: left;
+    width: 640px;
+    height: 360px;
+}
+#vidtext
+{
+    text-align: center;
+    font-family: "Trebuchet MS";
+    margin-left: 700px;
+    font-size: 17pt;
+}
+#gallery1
+{
+    width: 370px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 32px;
+    transform: rotate(-15deg);
+}
+#gallery2
+{
+    width: 370px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    transform: rotate(+5deg);
+}
+#gallery3
+{
+    width: 370px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 32px;
+    transform: rotate(+10deg);
+}
+#gallery4
+{
+    width: 370px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 32px;
+    transform: rotate(-15deg);
+    animation-name: gal4;
+    animation-duration: 12s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+#gallery5
+{
+    width: 370px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    transform: rotate(+5deg);
+    animation-name: gal5;
+    animation-duration: 9s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+#gallery6
+{
+    width: 370px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 32px;
+    transform: rotate(+10deg);
+    animation-name: gal6;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gal4
+{
+    0% {transform: rotate(-15deg);}
+    50% {transform: rotate(+15deg);}
+    100% {transform: rotate(-15deg);}
+}
+
+@keyframes gal5
+{
+    0% {transform: rotate(+5deg);}
+    50% {transform: rotate(-5deg);}
+    100% {transform: rotate(+5deg);}
+}
+
+@keyframes gal6
+{
+    0% {transform: rotate(10deg);}
+    50% {transform: rotate(-10deg);}
+    100% {transform: rotate(10deg);}
+}
+#form
+{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgba(206, 201, 201, 0.781);
+    font-size: 15pt;
+    font-family:Cambria;
+}
